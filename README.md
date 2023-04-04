@@ -16,8 +16,8 @@ Le joueur contrôle un personnage qui se déplace sur la carte en cliquant avec 
 git clone https://github.com/Firzus/Nightfall.git
 ```
 
-2. Ouvrez le projet Unity dans le dossier TopDownShooter.
-3. hargez la scène principale et cliquez sur le bouton "Play" pour lancer le jeu.
+2. Ouvrez le projet Unity dans le dossier Projet11_5.
+3. Chargez la scène principale et cliquez sur le bouton "Play" pour lancer le jeu.
 
 ## Configuration requise
 
