@@ -12,7 +12,7 @@ Le joueur contrôle un personnage qui se déplace sur la carte en cliquant avec 
 
 1. Clonez le dépôt GitHub en utilisant la commande suivante:
 
-```
+```bash
 git clone https://github.com/Firzus/Nightfall.git
 ```
 
