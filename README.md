@@ -21,9 +21,9 @@ git clone https://github.com/Firzus/Nightfall.git
 
 ## Configuration requise
 
-. Unity 2022.2.13.f1
-. Windows 7 ou supérieur, Mac OS X 10.9 ou supérieur, ou Linux
-. Un ordinateur avec une carte graphique compatible avec DirectX 11 ou OpenGL 3.2 ou supérieur
+- Unity 2022.2.13.f1
+- Windows 7 ou supérieur, Mac OS X 10.9 ou supérieur, ou Linux
+- Un ordinateur avec une carte graphique compatible avec DirectX 11 ou OpenGL 3.2 ou supérieur
 
 ## Contribution
 
