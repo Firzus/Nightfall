@@ -6,13 +6,13 @@ Le jeu est développé en utilisant Unity URP avec HLSL & Shader graph pour les 
 
 ## Comment jouer
 
-Le joueur contrôle un personnage qui se déplace sur la carte en cliquant avec la souris. Le joueur peut tirer sur les ennemis avec un clic gauche de la souris et changer d'arme avec un clic droit. Les ennemis apparaissent en vagues de plus en plus difficiles, avec des ennemis plus forts et plus nombreux dans chaque vague. Les ennemis ont différents types d'attaques et de mouvements, et peuvent avoir des points faibles que le joueur doit cibler pour les vaincre plus facilement. Le joueur peut ramasser des power-ups pour améliorer son arme et sa santé, ainsi que pour obtenir des avantages temporaires tels que l'invincibilité ou la rapidité.
+Le joueur contrôle un personnage qui se déplace sur la carte en cliquant avec la souris. Les ennemis apparaissent en vagues de plus en plus difficiles, avec des caractéristiques plus élevés et en plus quand nombre chaque vague. Les ennemis ont différents types d'attaques et de mouvements, et peuvent avoir des points faibles que le joueur doit cibler pour les vaincre plus facilement. Le joueur peut ramasser des buffs pour améliorer son arme et sa santé, ainsi que pour obtenir des avantages temporaires tels que l'invincibilité ou la rapidité.
 
 ## Installation
 
 1. Clonez le dépôt GitHub en utilisant la commande suivante:
 
-```bash
+```
 git clone https://github.com/Firzus/Nightfall.git
 ```
 
