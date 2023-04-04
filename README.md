@@ -6,7 +6,7 @@ Le jeu est développé en utilisant Unity URP avec HLSL & Shader graph pour les 
 
 ## Comment jouer
 
-Le joueur contrôle un personnage qui se déplace sur la carte en cliquant avec la souris. Les ennemis apparaissent en vagues de plus en plus difficiles, avec des caractéristiques plus élevés et en plus quand nombre chaque vague. Les ennemis ont différents types d'attaques et de mouvements, et peuvent avoir des points faibles que le joueur doit cibler pour les vaincre plus facilement. Le joueur peut ramasser des buffs pour améliorer son arme et sa santé, ainsi que pour obtenir des avantages temporaires tels que l'invincibilité ou la rapidité.
+Le joueur contrôle un personnage qui se déplace sur la carte en cliquant avec la souris. Les ennemis apparaissent en vagues de plus en plus difficiles, avec des caractéristiques plus élevés et en plus quand nombre à chaque vague. Les ennemis ont différents types d'attaques et de mouvements, et peuvent avoir des points faibles que le joueur doit cibler pour les vaincre plus facilement. Le joueur peut ramasser des buffs pour améliorer son arme et sa santé, ainsi que pour obtenir des avantages temporaires tels que l'invincibilité ou la rapidité.
 
 ## Installation
 
