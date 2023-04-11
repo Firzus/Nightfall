@@ -148,11 +148,11 @@ VideoPlayer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 113026732}
   m_Enabled: 1
-  m_VideoClip: {fileID: 32900000, guid: 9a8fe326dc4aaf94485e016318b11904, type: 3}
+  m_VideoClip: {fileID: 32900000, guid: a5c209ab6cce05449adedef55a2bb982, type: 3}
   m_TargetCameraAlpha: 1
   m_TargetCamera3DLayout: 0
   m_TargetCamera: {fileID: 0}
-  m_TargetTexture: {fileID: 8400000, guid: 7f4dca92e08deda4f88f2b6269881021, type: 2}
+  m_TargetTexture: {fileID: 8400000, guid: c1e344cd5f9cfd442867ad439001506e, type: 2}
   m_TimeReference: 0
   m_TargetMaterialRenderer: {fileID: 0}
   m_TargetMaterialProperty: <noninit>
@@ -339,6 +339,7 @@ GameObject:
   - component: {fileID: 446035933}
   - component: {fileID: 446035932}
   - component: {fileID: 446035931}
+  - component: {fileID: 446035935}
   m_Layer: 5
   m_Name: Canvas
   m_TagString: Untagged
@@ -431,6 +432,18 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0, y: 0}
+--- !u!114 &446035935
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 446035930}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 03788259a566a5349a860770d6c74381, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &504469414
 GameObject:
   m_ObjectHideFlags: 0
@@ -548,7 +561,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 0}
+  m_Sprite: {fileID: 21300000, guid: a6f288a28189aeb41b768e8f43462141, type: 3}
   m_Type: 0
   m_PreserveAspect: 1
   m_FillCenter: 1
@@ -890,7 +903,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Start
+  m_text: start
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: d8220086c107b6542a66d4f774c5529f, type: 2}
   m_sharedMaterial: {fileID: 4834665247499164789, guid: d8220086c107b6542a66d4f774c5529f,
@@ -918,13 +931,13 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 24
-  m_fontSizeBase: 24
+  m_fontSize: 8
+  m_fontSizeBase: 8
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
   m_fontSizeMax: 72
-  m_fontStyle: 0
+  m_fontStyle: 16
   m_HorizontalAlignment: 2
   m_VerticalAlignment: 512
   m_textAlignment: 65535
@@ -1094,7 +1107,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Texture: {fileID: 8400000, guid: 7f4dca92e08deda4f88f2b6269881021, type: 2}
+  m_Texture: {fileID: 8400000, guid: c1e344cd5f9cfd442867ad439001506e, type: 2}
   m_UVRect:
     serializedVersion: 2
     x: 0
