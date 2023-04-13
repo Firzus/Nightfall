@@ -1,8 +1,18 @@
 using UnityEngine;
+using UnityEngine.AI;
 
 public class Target : MonoBehaviour
 {
     public float health = 50f;
+
+    private ZombieAnimator zombieAnimator;
+    private NavMeshAgent agent;
+
+    private void Start()
+    {
+        zombieAnimator = GetComponentInChildren<ZombieAnimator>();
+        agent = GetComponent<NavMeshAgent>();
+    }
 
     public void TakeDamage(float amoout)
     {
@@ -16,6 +26,11 @@ public class Target : MonoBehaviour
 
     public void Die()
     {
-        Destroy(gameObject);
+        agent.isStopped = true;
+        zombieAnimator.AnimDie();
+
+        Debug.Log("Kill");
+
+        /*Destroy(gameObject);*/
     }
 }

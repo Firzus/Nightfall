@@ -268,6 +268,16 @@ PrefabInstance:
       propertyPath: m_BaseOffset
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 3399433632028329983, guid: 64f221b3e496b5c4d87c93f168e8da17,
+        type: 3}
+      propertyPath: m_Acceleration
+      value: 20
+      objectReference: {fileID: 0}
+    - target: {fileID: 3399433632028329983, guid: 64f221b3e496b5c4d87c93f168e8da17,
+        type: 3}
+      propertyPath: m_AngularSpeed
+      value: 10000
+      objectReference: {fileID: 0}
     - target: {fileID: 4475626444528285552, guid: 64f221b3e496b5c4d87c93f168e8da17,
         type: 3}
       propertyPath: m_RootOrder
@@ -397,7 +407,6 @@ GameObject:
   - component: {fileID: 489183459}
   - component: {fileID: 489183460}
   - component: {fileID: 489183461}
-  - component: {fileID: 489183462}
   - component: {fileID: 489183463}
   m_Layer: 6
   m_Name: Player
@@ -456,9 +465,9 @@ NavMeshAgent:
   m_AgentTypeID: 0
   m_Radius: 0.5
   m_Speed: 4
-  m_Acceleration: 10
+  m_Acceleration: 50
   avoidancePriority: 50
-  m_AngularSpeed: 2000
+  m_AngularSpeed: 10000
   m_StoppingDistance: 0
   m_AutoTraverseOffMeshLink: 1
   m_AutoBraking: 1
@@ -495,18 +504,6 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 5df81b9a95e2c1440ab7e9914f1245bf, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
---- !u!114 &489183462
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 489183454}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 51a4ae4f0a4083044ad9aad08c3ed07f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!114 &489183463
@@ -2817,6 +2814,10 @@ PrefabInstance:
         type: 3}
       insertIndex: -1
       addedObject: {fileID: 1828649516}
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 30a9d6afb6e78d34590f80321bc8d768,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1828649517}
   m_SourcePrefab: {fileID: 100100000, guid: 30a9d6afb6e78d34590f80321bc8d768, type: 3}
 --- !u!4 &1828649514 stripped
 Transform:
@@ -2851,6 +2852,18 @@ Animator:
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
   m_WriteDefaultValuesOnDisable: 0
+--- !u!114 &1828649517
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1828649515}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 51a4ae4f0a4083044ad9aad08c3ed07f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &1842341750
 PrefabInstance:
   m_ObjectHideFlags: 0
