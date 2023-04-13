@@ -5,7 +5,7 @@ public class SceneSwitcher : MonoBehaviour
 {
     public void ToGameScene()
     {
-        SceneManager.LoadScene("Game");
+        SceneManager.LoadScene("Level");
     }
 
     public void ToMenuScene()
