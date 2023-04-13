@@ -3,14 +3,19 @@ using UnityEngine.AI;
 
 public class Target : MonoBehaviour
 {
-    public float health = 50f;
+    [SerializeField] float health = 50f;
+
+    [SerializeField] private Renderer myObject;
+    [SerializeField] Material dissolveMat;
 
     private ZombieAnimator zombieAnimator;
     private NavMeshAgent agent;
+    private Animator animator;
 
     private void Start()
     {
         zombieAnimator = GetComponentInChildren<ZombieAnimator>();
+        animator = GetComponentInChildren<Animator>();
         agent = GetComponent<NavMeshAgent>();
     }
 
@@ -29,8 +34,18 @@ public class Target : MonoBehaviour
         agent.isStopped = true;
         zombieAnimator.AnimDie();
 
-        Debug.Log("Kill");
+        Invoke("DestroyEffect", animator.GetCurrentAnimatorStateInfo(0).length);
+    }
 
-        /*Destroy(gameObject);*/
+    private void DestroyEffect()
+    {
+        myObject.material = dissolveMat;
+
+        Invoke("DestroyObject", 3f);
+    }
+
+    void DestroyObject()
+    {
+        Destroy(gameObject);
     }
 }

@@ -28,6 +28,6 @@ public class ZombieAnimator : MonoBehaviour
 
     public void AnimDie()
     {
-        animator.SetTrigger("death");
+        animator.Play("dead_anim");
     }
 }
