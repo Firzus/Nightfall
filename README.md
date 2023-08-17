@@ -33,10 +33,6 @@ No need
 
 Standard
 
-## Reference
-
-Link of game design document [here](https://docs.google.com/document/d/1EoThmq0U4S3GfmfLzK5CWwE2Fa3vsG0a0x2aWMHmZ2s/edit?usp=sharing).
-
 ## Credit
 
 PRIEU Lilian
